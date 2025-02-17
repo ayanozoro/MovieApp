@@ -1,0 +1,125 @@
+/* CSS HEX */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@700&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --french-violet: #7400b8ff;
+    --grape: #6930c3ff;
+    --slate-blue: #5e60ceff;
+    --united-nations-blue: #5390d9ff;
+    --picton-blue: #4ea8deff;
+    --aero: #48bfe3ff;
+    --sky-blue: #56cfe1ff;
+    --tiffany-blue: #64dfdfff;
+    --turquoise: #72efddff;
+    --aquamarine: #80ffdbff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+}
+
+.navbar-links a {
+    color: #80ffdbff;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.navbar-links a:hover {
+    color: #7400b8ff;
+    text-decoration: none;
+}
+
+.navbar-links .active {
+    font-weight: bold;
+    color: #f1d532;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: rgb(7, 7, 7);
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    text-align: center;
+    justify-items: center;
+    padding-left: 10px;
+}
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    background-color: #0b0b02;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-left: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 30px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 2px solid #80ffdbff;
+    border-radius: 20px 0 0 20px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #f1d532;
+}
+
+

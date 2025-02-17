@@ -1,0 +1,135 @@
+.posterImage {
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .posterImage {
+        height: 400px; /* Adjust height for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage {
+        height: 300px; /* Adjust height for mobile devices */
+    }
+}
+
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .posterImage__title {
+        font-size: 3rem; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage__title {
+        font-size: 2.5rem; /* Adjust font size for mobile devices */
+    }
+}
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .posterImage__runtime {
+        font-size: 1.5rem; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage__runtime {
+        font-size: 1.2rem; /* Adjust font size for mobile devices */
+    }
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+@media (max-width: 768px) {
+    .posterImage__rating {
+        margin-left: 1.5rem; /* Adjust margin for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage__rating {
+        margin-left: 1rem; /* Adjust margin for mobile devices */
+    }
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .posterImage__description {
+        font-size: 0.9rem; /* Adjust font size for tablets */
+        width: 70%; /* Adjust width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .posterImage__description {
+        font-size: 0.8rem; /* Adjust font size for mobile devices */
+        width: 100%; /* Adjust width for mobile devices */
+    }
+}
+
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}

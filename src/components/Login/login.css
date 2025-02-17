@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px; /* Increased margin for a more spacious look */
+    width: 450px; /* Increased width for a more spacious look */
+    background: #fff;
+    padding: 25px; /* Increased padding */
+    background-image: url('https://th.bing.com/th/id/OIP.OWHRKGS-6czMhFjsN4-y9AHaEK?w=3840&h=2160&rs=1&pid=ImgDetMain');
+    background-size: cover;
+}
+
+.App{
+    background-image: url('https://thedrum-media.imgix.net/thedrum-prod/s3/news/tmp/10557/warnermedia_0.jpg?w=1280&ar=default&fit=crop&crop=faces&auto=format');
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Increased gap */
+    width: 100%;
+    margin-top: 20px; /* Increased margin */
+}
+
+.text {
+    color: #1309d7;
+    font-size: 36px; /* Increased font size */
+    font-weight: 700;
+}
+
+.underline {
+    width: 50px; /* Adjusted width */
+    height: 4px; /* Adjusted height */
+    background: #0806a5;
+    border-radius: 5px; /* Adjusted border radius */
+}
+
+.inputs {
+    margin-top: 40px; /* Increased margin */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%; /* Full width */
+    height: 60px; /* Increased height */
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 15px; /* Adjusted margin */
+}
+
+.input input {
+    height: 45px; /* Increased height */
+    width: 100%; /* Full width */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Increased font size */
+}
+
+.forgot-password {
+    padding-left: 15px; /* Adjusted padding */
+    margin-top: 15px; /* Increased margin */
+    color: #797979;
+    font-size: 16px; /* Increased font size */
+}
+
+.forgot-password span {
+    color: #15b4d4;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 15px; /* Increased gap */
+    margin: 30px auto; /* Increased margin */
+    color: #eaeaea;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    height: 50px; /* Increased height */
+    color: #fff;
+    background: #0a1cbe;
+    border-radius: 50px;
+    font-size: 16px; /* Increased font size */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
+}

@@ -1,0 +1,125 @@
+.carousel-image {
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.front-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.front {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(255, 99, 71, 0.8), rgba(255, 99, 71, 0.5));
+    background-image: url('https://thedrum-media.imgix.net/thedrum-prod/s3/news/tmp/10557/warnermedia_0.jpg?w=1280&ar=default&fit=crop&crop=faces&auto=format');
+    height: 100vh;
+}
+
+.sp {
+    color: #ff6347;
+}
+
+.frontSearch {
+    color: #fef9f9;
+    width: 500px;
+    height: 30px;
+    padding: 12px 16px;
+    border: 2px solid #070707;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.frontSearch:focus {
+    border-color: #e22929;
+    background-color: #090909;
+    box-shadow: 0 0 8px rgba(55, 224, 47, 0.5);
+    transform: scale(1.03);
+}
+
+.btn {
+    background-color: #0b0b02;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #eb1616;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.para {
+    font-size: 60px;
+    justify-content: center;
+}
+
+.trending-section {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.trending-title{
+    text-align: left;
+}
+.trending {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.trending::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+  }
+
+.movie-card {
+    width: 200px;
+    flex: 0 0 auto;
+    transition: 0.4s;
+}
+
+.movie-card:hover{
+    transform: scale(1.1);
+    box-shadow: #2fe2f3;
+}
+.tend-img {
+    width: 100%;
+    border-radius: 8px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+
+.movie-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.trending-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
