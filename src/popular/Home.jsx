@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import './home.css';
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton"; // Importing Skeleton for loading states
-
-import Movie from '../Movie-detail/Movie.jsx'; // Ensure the path is correct
 import MovieList from '../components/movielist/Movilist.jsx';
 
 const Home = () => {

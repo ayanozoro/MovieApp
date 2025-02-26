@@ -11,7 +11,7 @@ const Stream = ({ movieId }) => {
         allowFullScreen
         style={{ 
           width: '56.25vw', 
-          height: '56.25vw', // 16:9 aspect ratio based on viewport width
+          height: '56.25vw', 
           maxHeight: '500px',
           border: 'none' 
         }}
