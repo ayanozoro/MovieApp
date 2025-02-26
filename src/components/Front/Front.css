@@ -91,7 +91,7 @@
 }
 
 .trending::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari */
+    display: none;
   }
 
 .movie-card {
