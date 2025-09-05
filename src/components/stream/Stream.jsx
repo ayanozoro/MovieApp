@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Stream = ({ movieId }) => {
-  const streamUrl = `https://vidsrc.dev/embed/movie/${movieId}`;
-
+  const streamUrl = `https://player.vidplus.to/embed/movie/${movieId}`;
+  // const streamUrl = `https://vidsrc.to/embed/Movie/${movieId}`
   return (
     <div className="stream-container">
       <iframe
