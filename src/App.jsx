@@ -5,8 +5,8 @@ import Footer from './components/Footer/Footer.jsx';
 import Navbar from './components/Header/Navbar.jsx';
 import FrontPage from './components/Front/FrontPage.jsx';
 import Movies from './components/Alltype/allmovies.jsx';
-import Admin from './components/Admin/Admin.jsx';
-import Login from './components/Login/Login.jsx';
+// import Admin from './components/Admin/Admin.jsx';
+// import Login from './components/Login/Login.jsx';
 import Movie from './Movie-detail/Movie.jsx';
 import Tv from '/Tv-detail/Tv.jsx';
 import SearchResults from './components/SearchResults/SearchResults.jsx';
@@ -66,8 +66,8 @@ const App = () => {
         <Route path="/tv/:id" element={<Tv />} />
         <Route path="/movie/:id" element={<Movie />} />
         <Route path="/allmovies" element={<Movies />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/admin" element={<Admin />} /> */}
+        {/* <Route path="/login" element={<Login />} /> */}
         <Route 
           path="/search" 
           element={<SearchResults movies={movies} isLoading={isLoading} />} 
